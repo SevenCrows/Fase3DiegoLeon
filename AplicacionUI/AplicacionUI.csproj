@@ -51,6 +51,19 @@
     <Compile Include="Clases\Cola.cs" />
     <Compile Include="Clases\Lista.cs" />
     <Compile Include="Clases\Pila.cs" />
+    <Compile Include="Enumeradores\TipoAplicacion.cs" />
+    <Compile Include="Interfaz\Pila\Formulario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\Pila\Formulario.Designer.cs">
+      <DependentUpon>Formulario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\Pila\Informacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\Pila\Informacion.Designer.cs">
+      <DependentUpon>Informacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interfaz\Seguridad\Seguridad.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +96,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <EmbeddedResource Include="Interfaz\Pila\Informacion.resx">
+      <DependentUpon>Informacion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Interfaz\Seguridad\Seguridad.resx">
       <DependentUpon>Seguridad.cs</DependentUpon>
     </EmbeddedResource>
