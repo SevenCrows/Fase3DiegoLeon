@@ -121,7 +121,6 @@
     <value>17, 17</value>
   </metadata>
   <data name="lb_parrafo_1.Text" xml:space="preserve">
-    <value>La agencia de viajes “Transervimos” dedicada al servicio de transporte aéreo, requiere implementar una aplicación que esté al servicio de sus clientes para planificar y cotizar sus viajes. Se requiere que la aplicación maneje los siguientes datos de la reserva del cliente como son: La identificación, el nombre completo, el lugar de destino.
-</value>
+    <value>La aplicación tendrá una interfaz inicial que al ejecutarla muestre su nombre completo como autor de la aplicación, el nombre de la aplicación, y el nivel de seguridad básico con la contraseña de acceso genérica que será: 123 que estará enmascarada, No incluir Nombre de usuario, solo la contraseña, de tal manera que si digita la contraseña correcta lo lleve a una nueva pantalla o interfaz en la que se muestra el formulario con el menú de opciones que hará el llamado al formulario para la captura de los datos de la Clase Pila, de la Clase Cola y La Clase Lista.</value>
   </data>
 </root>
