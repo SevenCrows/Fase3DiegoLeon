@@ -23,7 +23,7 @@
             return this.stackEncuesta.Count();
         }
 
-        public void EliminarRegistro(int identificacion)
+        public void EliminarRegistro()
         {
             this.stackEncuesta.Pop();
         }

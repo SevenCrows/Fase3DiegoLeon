@@ -37,9 +37,9 @@ namespace AplicacionUI.Interfaz.Pila
             this.btn_salir = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.btn_iniciar_pila = new System.Windows.Forms.Button();
             this.lb_parrafo_1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btn_iniciar_pila = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
@@ -142,6 +142,23 @@ namespace AplicacionUI.Interfaz.Pila
             this.panel3.Size = new System.Drawing.Size(680, 592);
             this.panel3.TabIndex = 2;
             // 
+            // btn_iniciar_pila
+            // 
+            this.btn_iniciar_pila.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_iniciar_pila.FlatAppearance.BorderSize = 0;
+            this.btn_iniciar_pila.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(70)))), ((int)(((byte)(43)))));
+            this.btn_iniciar_pila.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(3)))), ((int)(((byte)(10)))));
+            this.btn_iniciar_pila.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_iniciar_pila.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_iniciar_pila.ForeColor = System.Drawing.Color.White;
+            this.btn_iniciar_pila.Location = new System.Drawing.Point(415, 517);
+            this.btn_iniciar_pila.Name = "btn_iniciar_pila";
+            this.btn_iniciar_pila.Size = new System.Drawing.Size(224, 43);
+            this.btn_iniciar_pila.TabIndex = 32;
+            this.btn_iniciar_pila.Text = "Iniciar aplicación";
+            this.btn_iniciar_pila.UseVisualStyleBackColor = false;
+            this.btn_iniciar_pila.Click += new System.EventHandler(this.btn_iniciar_pila_Click);
+            // 
             // lb_parrafo_1
             // 
             this.lb_parrafo_1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -160,23 +177,6 @@ namespace AplicacionUI.Interfaz.Pila
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(4, 592);
             this.panel2.TabIndex = 1;
-            // 
-            // btn_iniciar_pila
-            // 
-            this.btn_iniciar_pila.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(3)))), ((int)(((byte)(10)))));
-            this.btn_iniciar_pila.FlatAppearance.BorderSize = 0;
-            this.btn_iniciar_pila.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(70)))), ((int)(((byte)(43)))));
-            this.btn_iniciar_pila.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btn_iniciar_pila.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_iniciar_pila.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_iniciar_pila.ForeColor = System.Drawing.Color.White;
-            this.btn_iniciar_pila.Location = new System.Drawing.Point(415, 517);
-            this.btn_iniciar_pila.Name = "btn_iniciar_pila";
-            this.btn_iniciar_pila.Size = new System.Drawing.Size(224, 43);
-            this.btn_iniciar_pila.TabIndex = 32;
-            this.btn_iniciar_pila.Text = "Iniciar aplicación";
-            this.btn_iniciar_pila.UseVisualStyleBackColor = false;
-            this.btn_iniciar_pila.Click += new System.EventHandler(this.btn_iniciar_pila_Click);
             // 
             // Informacion
             // 

@@ -129,8 +129,14 @@
   <data name="MensajeConfirmarSalirPrograma" xml:space="preserve">
     <value>¿Está seguro que desea salir del programa?</value>
   </data>
+  <data name="MensajeErrorPilaVacia" xml:space="preserve">
+    <value>No tiene información para eliminar</value>
+  </data>
   <data name="ToolbarAlertaBoxSeguridad" xml:space="preserve">
     <value>Alerta de Seguridad</value>
+  </data>
+  <data name="ToolbarAlertaInformativa" xml:space="preserve">
+    <value>Aviso</value>
   </data>
   <data name="ToolbarSalirPrograma" xml:space="preserve">
     <value>Salir del programa</value>

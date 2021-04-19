@@ -17,6 +17,7 @@
         private readonly ValidacionCampos validacion;
 
         private readonly NegocioPila negocioPila;
+        private Informacion informacionPila;
 
         /// <summary>
         /// The seleccion destino
@@ -92,6 +93,26 @@
             }
         }
 
+        private void lb_regresar_Click(object sender, EventArgs e)
+        {
+            this.informacionPila = new Informacion();
+            this.informacionPila.Show();
+            this.Hide();
+        }
+
+        private void btn_eliminar_pila_Click(object sender, EventArgs e)
+        {
+            if (this.negocioPila.RetornarTotalRegistros() == 0)
+            {
+                MessageBox.Show(rcsMensajesUI.MensajeErrorPilaVacia, rcsMensajesUI.ToolbarAlertaInformativa, MessageBoxButtons.OK);
+            }
+            else
+            {
+                this.negocioPila.EliminarRegistro();
+                this.CargarSatackEncuesta();
+            }
+        }
+
         private bool ValidarInformacionFormulario()
         {
             bool validar = true;
@@ -157,7 +178,7 @@
 
         private void CargarSatackEncuesta()
         {
-            this.grid_view_pila.DataSource = this.negocioPila.RetornarStockEncuesta();
+            this.grid_view_pila.DataSource = this.negocioPila.RetornarStockEncuesta().ToArray();
         }
     }
 }
