@@ -31,7 +31,7 @@
             InitializeComponent();
             this.validacion = new ValidacionCampos();
             this.negocioPila = new NegocioPila();
-            this.CargarSatackEncuesta();
+            this.CargarStackEncuesta();
             this.intEstrato = -1;
             this.intUbicacion = -1;
             this.intCanal = -1;
@@ -89,7 +89,7 @@
                 this.negocioPila.GuardarInformacion(pila);
                 this.lb_registros_actuales.Text = this.negocioPila.RetornarTotalRegistros().ToString();
                 this.LimpiarInformacionFormulario();
-                this.CargarSatackEncuesta();
+                this.CargarStackEncuesta();
             }
         }
 
@@ -109,7 +109,8 @@
             else
             {
                 this.negocioPila.EliminarRegistro();
-                this.CargarSatackEncuesta();
+                this.lb_registros_actuales.Text = this.negocioPila.RetornarTotalRegistros().ToString();
+                this.CargarStackEncuesta();
             }
         }
 
@@ -176,7 +177,7 @@
             this.intCanal = -1;
         }
 
-        private void CargarSatackEncuesta()
+        private void CargarStackEncuesta()
         {
             this.grid_view_pila.DataSource = this.negocioPila.RetornarStockEncuesta().ToArray();
         }
