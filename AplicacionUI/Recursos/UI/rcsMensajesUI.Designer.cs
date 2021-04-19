@@ -61,6 +61,33 @@ namespace AplicacionUI.Recursos.UI {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Debe seleccionar un canal.
+        /// </summary>
+        internal static string ErrorProviderSeleccionCanal {
+            get {
+                return ResourceManager.GetString("ErrorProviderSeleccionCanal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Debe seleccionar un estrato.
+        /// </summary>
+        internal static string ErrorProviderSeleccionEstrato {
+            get {
+                return ResourceManager.GetString("ErrorProviderSeleccionEstrato", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Debe seleccionar una ubicación.
+        /// </summary>
+        internal static string ErrorProviderSeleccionUbicacion {
+            get {
+                return ResourceManager.GetString("ErrorProviderSeleccionUbicacion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a ¿Está seguro que desea salir del programa?.
         /// </summary>
         internal static string MensajeConfirmarSalirPrograma {
@@ -70,11 +97,29 @@ namespace AplicacionUI.Recursos.UI {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a No tiene información para eliminar.
+        /// </summary>
+        internal static string MensajeErrorPilaVacia {
+            get {
+                return ResourceManager.GetString("MensajeErrorPilaVacia", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Alerta de Seguridad.
         /// </summary>
         internal static string ToolbarAlertaBoxSeguridad {
             get {
                 return ResourceManager.GetString("ToolbarAlertaBoxSeguridad", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Aviso.
+        /// </summary>
+        internal static string ToolbarAlertaInformativa {
+            get {
+                return ResourceManager.GetString("ToolbarAlertaInformativa", resourceCulture);
             }
         }
         

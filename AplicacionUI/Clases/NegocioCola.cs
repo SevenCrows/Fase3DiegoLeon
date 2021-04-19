@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AplicacionUI.Clases
 {
-    class Lista
+    class NegocioCola
     {
     }
 }

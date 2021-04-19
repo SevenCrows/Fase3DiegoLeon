@@ -1,0 +1,214 @@
+﻿
+namespace AplicacionUI.Interfaz.Pila
+{
+    partial class Informacion
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Informacion));
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_listas = new System.Windows.Forms.Button();
+            this.btn_colas = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btn_salir = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.btn_iniciar_pila = new System.Windows.Forms.Button();
+            this.lb_parrafo_1 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.panel1.Controls.Add(this.btn_listas);
+            this.panel1.Controls.Add(this.btn_colas);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btn_salir);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(252, 592);
+            this.panel1.TabIndex = 0;
+            // 
+            // btn_listas
+            // 
+            this.btn_listas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_listas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_listas.FlatAppearance.BorderSize = 0;
+            this.btn_listas.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(70)))), ((int)(((byte)(43)))));
+            this.btn_listas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(0)))), ((int)(((byte)(5)))));
+            this.btn_listas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_listas.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_listas.ForeColor = System.Drawing.Color.White;
+            this.btn_listas.Location = new System.Drawing.Point(0, 136);
+            this.btn_listas.Name = "btn_listas";
+            this.btn_listas.Size = new System.Drawing.Size(252, 68);
+            this.btn_listas.TabIndex = 17;
+            this.btn_listas.Text = "Listas";
+            this.btn_listas.UseVisualStyleBackColor = false;
+            // 
+            // btn_colas
+            // 
+            this.btn_colas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_colas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_colas.FlatAppearance.BorderSize = 0;
+            this.btn_colas.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(70)))), ((int)(((byte)(43)))));
+            this.btn_colas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(0)))), ((int)(((byte)(5)))));
+            this.btn_colas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_colas.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_colas.ForeColor = System.Drawing.Color.White;
+            this.btn_colas.Location = new System.Drawing.Point(0, 68);
+            this.btn_colas.Name = "btn_colas";
+            this.btn_colas.Size = new System.Drawing.Size(252, 68);
+            this.btn_colas.TabIndex = 16;
+            this.btn_colas.Text = "Colas";
+            this.btn_colas.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(3)))), ((int)(((byte)(10)))));
+            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(0)))), ((int)(((byte)(5)))));
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(0)))), ((int)(((byte)(5)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(252, 68);
+            this.button1.TabIndex = 15;
+            this.button1.Text = "Pilas";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // btn_salir
+            // 
+            this.btn_salir.AutoSize = true;
+            this.btn_salir.Font = new System.Drawing.Font("Century Gothic", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_salir.ForeColor = System.Drawing.Color.White;
+            this.btn_salir.Location = new System.Drawing.Point(185, 553);
+            this.btn_salir.Name = "btn_salir";
+            this.btn_salir.Size = new System.Drawing.Size(61, 30);
+            this.btn_salir.TabIndex = 14;
+            this.btn_salir.Text = "Salir";
+            this.btn_salir.Click += new System.EventHandler(this.btn_salir_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label1.Location = new System.Drawing.Point(85, 50);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(502, 36);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "Fase 3 Práctica Estructuras lineales";
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.btn_iniciar_pila);
+            this.panel3.Controls.Add(this.lb_parrafo_1);
+            this.panel3.Controls.Add(this.label1);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(256, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(680, 592);
+            this.panel3.TabIndex = 2;
+            // 
+            // btn_iniciar_pila
+            // 
+            this.btn_iniciar_pila.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_iniciar_pila.FlatAppearance.BorderSize = 0;
+            this.btn_iniciar_pila.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(70)))), ((int)(((byte)(43)))));
+            this.btn_iniciar_pila.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(3)))), ((int)(((byte)(10)))));
+            this.btn_iniciar_pila.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_iniciar_pila.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_iniciar_pila.ForeColor = System.Drawing.Color.White;
+            this.btn_iniciar_pila.Location = new System.Drawing.Point(415, 517);
+            this.btn_iniciar_pila.Name = "btn_iniciar_pila";
+            this.btn_iniciar_pila.Size = new System.Drawing.Size(224, 43);
+            this.btn_iniciar_pila.TabIndex = 32;
+            this.btn_iniciar_pila.Text = "Iniciar aplicación";
+            this.btn_iniciar_pila.UseVisualStyleBackColor = false;
+            this.btn_iniciar_pila.Click += new System.EventHandler(this.btn_iniciar_pila_Click);
+            // 
+            // lb_parrafo_1
+            // 
+            this.lb_parrafo_1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_parrafo_1.Location = new System.Drawing.Point(45, 124);
+            this.lb_parrafo_1.Name = "lb_parrafo_1";
+            this.lb_parrafo_1.Size = new System.Drawing.Size(594, 355);
+            this.lb_parrafo_1.TabIndex = 31;
+            this.lb_parrafo_1.Text = resources.GetString("lb_parrafo_1.Text");
+            this.lb_parrafo_1.UseCompatibleTextRendering = true;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(3)))), ((int)(((byte)(10)))));
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel2.Location = new System.Drawing.Point(252, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(4, 592);
+            this.panel2.TabIndex = 1;
+            // 
+            // Informacion
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(936, 592);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Informacion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "FormularioReserva";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label btn_salir;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_listas;
+        private System.Windows.Forms.Button btn_colas;
+        private System.Windows.Forms.Label lb_parrafo_1;
+        private System.Windows.Forms.Button btn_iniciar_pila;
+    }
+}
