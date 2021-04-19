@@ -48,9 +48,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clases\Cola.cs" />
-    <Compile Include="Clases\Lista.cs" />
-    <Compile Include="Clases\Pila.cs" />
+    <Compile Include="Clases\NegocioCola.cs" />
+    <Compile Include="Clases\NegocioLista.cs" />
+    <Compile Include="Clases\NegocioPila.cs" />
     <Compile Include="Enumeradores\TipoAplicacion.cs" />
     <Compile Include="Interfaz\Pila\Formulario.cs">
       <SubType>Form</SubType>
@@ -70,6 +70,7 @@
     <Compile Include="Interfaz\Seguridad\Seguridad.Designer.cs">
       <DependentUpon>Seguridad.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modelos\Pila\Pila.cs" />
     <Compile Include="Modelos\Transversal\Respuesta.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -93,9 +94,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Properties\DataSources\AplicacionUI.Modelos.Pila.Pila.datasource" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <EmbeddedResource Include="Interfaz\Pila\Formulario.resx">
+      <DependentUpon>Formulario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Interfaz\Pila\Informacion.resx">
       <DependentUpon>Informacion.cs</DependentUpon>
     </EmbeddedResource>

@@ -11,3 +11,4 @@ G:\SevenCrows\Universidad\Periodo 2021\1\EstructuraDatos\Tarea3\Fase3DiegoLeon\A
 G:\SevenCrows\Universidad\Periodo 2021\1\EstructuraDatos\Tarea3\Fase3DiegoLeon\AplicacionUI\obj\Debug\AplicacionUI.Recursos.Seguridad.rcsSeguridad.resources
 G:\SevenCrows\Universidad\Periodo 2021\1\EstructuraDatos\Tarea3\Fase3DiegoLeon\AplicacionUI\obj\Debug\AplicacionUI.csprojAssemblyReference.cache
 G:\SevenCrows\Universidad\Periodo 2021\1\EstructuraDatos\Tarea3\Fase3DiegoLeon\AplicacionUI\obj\Debug\AplicacionUI.Interfaz.Pila.Informacion.resources
+G:\SevenCrows\Universidad\Periodo 2021\1\EstructuraDatos\Tarea3\Fase3DiegoLeon\AplicacionUI\obj\Debug\AplicacionUI.Interfaz.Pila.Formulario.resources

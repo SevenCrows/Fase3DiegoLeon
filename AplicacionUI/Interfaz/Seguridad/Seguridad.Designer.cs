@@ -33,6 +33,7 @@ namespace AplicacionUI.Interfaz.Seguridad
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Seguridad));
             this.txt_password = new System.Windows.Forms.TextBox();
             this.ep_password = new System.Windows.Forms.ErrorProvider(this.components);
+            this.btn_ingresar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btn_salir = new System.Windows.Forms.Label();
             this.lb_parrafo_1 = new System.Windows.Forms.Label();
@@ -42,7 +43,6 @@ namespace AplicacionUI.Interfaz.Seguridad
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.btn_ingresar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.ep_password)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -65,6 +65,25 @@ namespace AplicacionUI.Interfaz.Seguridad
             // 
             this.ep_password.ContainerControl = this;
             // 
+            // btn_ingresar
+            // 
+            this.btn_ingresar.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btn_ingresar.FlatAppearance.BorderSize = 0;
+            this.btn_ingresar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(105)))), ((int)(((byte)(126)))));
+            this.btn_ingresar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(199)))), ((int)(((byte)(222)))));
+            this.btn_ingresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_ingresar.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_ingresar.ForeColor = System.Drawing.Color.White;
+            this.ep_password.SetIconAlignment(this.btn_ingresar, System.Windows.Forms.ErrorIconAlignment.MiddleLeft);
+            this.btn_ingresar.Location = new System.Drawing.Point(621, 443);
+            this.btn_ingresar.Name = "btn_ingresar";
+            this.btn_ingresar.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btn_ingresar.Size = new System.Drawing.Size(278, 57);
+            this.btn_ingresar.TabIndex = 18;
+            this.btn_ingresar.Text = "Ingresar";
+            this.btn_ingresar.UseVisualStyleBackColor = true;
+            this.btn_ingresar.Click += new System.EventHandler(this.btn_ingresar_Click);
+            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
@@ -74,7 +93,7 @@ namespace AplicacionUI.Interfaz.Seguridad
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(617, 450);
+            this.panel1.Size = new System.Drawing.Size(617, 500);
             this.panel1.TabIndex = 2;
             // 
             // btn_salir
@@ -82,7 +101,7 @@ namespace AplicacionUI.Interfaz.Seguridad
             this.btn_salir.AutoSize = true;
             this.btn_salir.Font = new System.Drawing.Font("Century Gothic", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_salir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(172)))));
-            this.btn_salir.Location = new System.Drawing.Point(525, 405);
+            this.btn_salir.Location = new System.Drawing.Point(525, 455);
             this.btn_salir.Name = "btn_salir";
             this.btn_salir.Size = new System.Drawing.Size(61, 30);
             this.btn_salir.TabIndex = 13;
@@ -92,7 +111,7 @@ namespace AplicacionUI.Interfaz.Seguridad
             // lb_parrafo_1
             // 
             this.lb_parrafo_1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_parrafo_1.Location = new System.Drawing.Point(42, 143);
+            this.lb_parrafo_1.Location = new System.Drawing.Point(42, 178);
             this.lb_parrafo_1.Name = "lb_parrafo_1";
             this.lb_parrafo_1.Size = new System.Drawing.Size(544, 189);
             this.lb_parrafo_1.TabIndex = 5;
@@ -104,7 +123,7 @@ namespace AplicacionUI.Interfaz.Seguridad
             this.lb_informacion.AutoSize = true;
             this.lb_informacion.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_informacion.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lb_informacion.Location = new System.Drawing.Point(54, 74);
+            this.lb_informacion.Location = new System.Drawing.Point(54, 99);
             this.lb_informacion.Name = "lb_informacion";
             this.lb_informacion.Size = new System.Drawing.Size(502, 36);
             this.lb_informacion.TabIndex = 4;
@@ -116,7 +135,7 @@ namespace AplicacionUI.Interfaz.Seguridad
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(617, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(4, 450);
+            this.panel2.Size = new System.Drawing.Size(4, 500);
             this.panel2.TabIndex = 3;
             // 
             // label8
@@ -163,30 +182,12 @@ namespace AplicacionUI.Interfaz.Seguridad
             this.label11.Text = "DIEGO ALEXANDER LEON TORRES\r\n";
             this.label11.UseCompatibleTextRendering = true;
             // 
-            // btn_ingresar
-            // 
-            this.btn_ingresar.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btn_ingresar.FlatAppearance.BorderSize = 0;
-            this.btn_ingresar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(105)))), ((int)(((byte)(126)))));
-            this.btn_ingresar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(199)))), ((int)(((byte)(222)))));
-            this.btn_ingresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ingresar.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_ingresar.ForeColor = System.Drawing.Color.White;
-            this.ep_password.SetIconAlignment(this.btn_ingresar, System.Windows.Forms.ErrorIconAlignment.MiddleLeft);
-            this.btn_ingresar.Location = new System.Drawing.Point(621, 393);
-            this.btn_ingresar.Name = "btn_ingresar";
-            this.btn_ingresar.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btn_ingresar.Size = new System.Drawing.Size(278, 57);
-            this.btn_ingresar.TabIndex = 18;
-            this.btn_ingresar.Text = "Ingresar";
-            this.btn_ingresar.UseVisualStyleBackColor = true;
-            // 
             // Seguridad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(172)))));
-            this.ClientSize = new System.Drawing.Size(899, 450);
+            this.ClientSize = new System.Drawing.Size(899, 500);
             this.Controls.Add(this.btn_ingresar);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);

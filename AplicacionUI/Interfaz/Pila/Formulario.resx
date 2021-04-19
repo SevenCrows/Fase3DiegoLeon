@@ -117,7 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="lb_parrafo_1.Text" xml:space="preserve">
-    <value>La Empresa de televisión digital desea implementar un sistema de información que se comporte como una estructura de datos tipo Pila, es decir que el ultimo registro ingresado sea el primero en salir. Que permita realizar el registro a través de una encuesta del uso de los canales de televisión, que el sistema cuente con un menú de opciones para registrar, eliminar datos y el reporte. Para lo cual requiere que el usuario del sistema registre a través del formulario de la pila, los datos de usabilidad de los canales de televisión de cada usuario y se almacenen en una clase llamada Pila, la cual tendrá como atributos o propiedades: la identificación del usuario, el estrato (1, 2, 3, 4 y 5) para seleccionar de una lista desplegable y el tipo de ubicación (Rural, Urbano) para seleccionar de una lista desplegable, El nombre del canal de Tv que más visualiza (Canal 1, Canal Institucional, Caracol, RCN) para seleccionar de una lista. Se requiere que en la medida que se vayan realizando los registros se muestren en un control DataGridView en el mismo formulario. Realizar el cálculo matemático para mostrar en la opción reporte la cantidad de usuarios encuestados en una caja de texto en el formulario.</value>
-  </data>
+  <metadata name="ep_identificacion.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="ep_estrato.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>160, 17</value>
+  </metadata>
+  <metadata name="ep_ubicacion.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>268, 17</value>
+  </metadata>
+  <metadata name="ep_canal.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>391, 17</value>
+  </metadata>
+  <metadata name="pilaBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>490, 17</value>
+  </metadata>
 </root>

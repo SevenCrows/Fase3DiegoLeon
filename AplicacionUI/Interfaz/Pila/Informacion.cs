@@ -6,6 +6,8 @@
 
     public partial class Informacion : Form
     {
+        private Formulario formularioPila;
+
         public Informacion()
         {
             InitializeComponent();
@@ -19,6 +21,13 @@
             {
                 Environment.Exit(1);
             }
+        }
+
+        private void btn_iniciar_pila_Click(object sender, EventArgs e)
+        {
+            this.formularioPila = new Formulario();
+            this.formularioPila.Show();
+            this.Hide();
         }
     }
 }

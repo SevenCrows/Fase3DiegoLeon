@@ -2,6 +2,7 @@
 {
     using System;
     using System.Windows.Forms;
+    using AplicacionUI.Interfaz.Pila;
     using AplicacionUI.Modelos.Transversal;
     using AplicacionUI.Recursos.UI;
     using AplicacionUI.Utilidades.Seguridad;
@@ -18,6 +19,11 @@
         /// The validacion campos
         /// </summary>
         private readonly ValidacionCampos validacionCampos;
+
+        /// <summary>
+        /// The formulario reserva
+        /// </summary>
+        private Informacion informacionPila;
 
         public Seguridad()
         {
@@ -60,9 +66,9 @@
                 }
                 else
                 {
-                    //this.formularioReserva = new FormularioReserva(new Reserva());
-                    //formularioReserva.Show();
-                    //this.Hide();
+                    this.informacionPila = new Informacion();
+                    this.informacionPila.Show();
+                    this.Hide();
                 }
             }
         }
