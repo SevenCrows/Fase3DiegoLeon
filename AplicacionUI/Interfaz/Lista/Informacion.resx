@@ -117,40 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ErrorProviderSeleccionCanal" xml:space="preserve">
-    <value>Debe seleccionar un canal</value>
-  </data>
-  <data name="ErrorProviderSeleccionEstrato" xml:space="preserve">
-    <value>Debe seleccionar un estrato</value>
-  </data>
-  <data name="ErrorProviderSeleccionGenero" xml:space="preserve">
-    <value>Debe seleccionar un genero</value>
-  </data>
-  <data name="ErrorProviderSeleccionPaisResidencia" xml:space="preserve">
-    <value>Debe seleccionar un pais de residencia</value>
-  </data>
-  <data name="ErrorProviderSeleccionUbicacion" xml:space="preserve">
-    <value>Debe seleccionar una ubicación</value>
-  </data>
-  <data name="MensajeConfirmarSalirPrograma" xml:space="preserve">
-    <value>¿Está seguro que desea salir del programa?</value>
-  </data>
-  <data name="MensajeErrorPilaVacia" xml:space="preserve">
-    <value>No tiene información para eliminar</value>
-  </data>
-  <data name="MensajeRegistroExistenteCola" xml:space="preserve">
-    <value>Ya existe un registro con el número de pasaporte ingresado</value>
-  </data>
-  <data name="MensajeRegistroExistentePila" xml:space="preserve">
-    <value>Ya existe un registro con el número de identificación ingresado</value>
-  </data>
-  <data name="ToolbarAlertaBoxSeguridad" xml:space="preserve">
-    <value>Alerta de Seguridad</value>
-  </data>
-  <data name="ToolbarAlertaInformativa" xml:space="preserve">
-    <value>Aviso</value>
-  </data>
-  <data name="ToolbarSalirPrograma" xml:space="preserve">
-    <value>Salir del programa</value>
+  <data name="lb_parrafo_1.Text" xml:space="preserve">
+    <value>La Agencia de viajes Aviaturs desea implementar un sistema de información que se comporte como una estructura de datos tipo Lista, es decir que permita realizar el registro y eliminar cualquier registro deseado. Que cuente con un menú de opciones para registrar, consultar y eliminar datos de la reserva de vuelo hecha por los clientes. Para lo cual requiere que el usuario del sistema registre a través del formulario de la lista, los datos de cada reserva y se almacenen en una clase llamada Lista, la cual tendrá como atributos o propiedades: el código de reserva, el destino (Bogotá, Medellín, Cali y Barranquilla) para seleccionar de una lista desplegable, la fecha de viaje hacer uso del control DateTimePicker, el valor del tiquete. Se requiere que en la medida que se vayan realizando los registros, estos se muestren en un control DataGridView en el mismo formulario. La eliminación de un registro se da cuando el usuario solicita hacer el cheking. Tenga en cuenta que para hacer el Cheking se debe consultar que el código de reserva exista, si es así se procede a eliminar el registro de la lista.</value>
   </data>
 </root>

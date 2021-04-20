@@ -13,3 +13,5 @@ G:\SevenCrows\Universidad\Periodo 2021\1\EstructuraDatos\Tarea3\Fase3DiegoLeon\A
 G:\SevenCrows\Universidad\Periodo 2021\1\EstructuraDatos\Tarea3\Fase3DiegoLeon\AplicacionUI\obj\Debug\AplicacionUI.csproj.CoreCompileInputs.cache
 G:\SevenCrows\Universidad\Periodo 2021\1\EstructuraDatos\Tarea3\Fase3DiegoLeon\AplicacionUI\obj\Debug\AplicacionUI.exe
 G:\SevenCrows\Universidad\Periodo 2021\1\EstructuraDatos\Tarea3\Fase3DiegoLeon\AplicacionUI\obj\Debug\AplicacionUI.pdb
+G:\SevenCrows\Universidad\Periodo 2021\1\EstructuraDatos\Tarea3\Fase3DiegoLeon\AplicacionUI\obj\Debug\AplicacionUI.csprojAssemblyReference.cache
+G:\SevenCrows\Universidad\Periodo 2021\1\EstructuraDatos\Tarea3\Fase3DiegoLeon\AplicacionUI\obj\Debug\AplicacionUI.Interfaz.Lista.Informacion.resources

@@ -63,6 +63,18 @@
     <Compile Include="Interfaz\Cola\Informacion.Designer.cs">
       <DependentUpon>Informacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interfaz\Lista\Formulario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\Lista\Formulario.Designer.cs">
+      <DependentUpon>Formulario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\Lista\Informacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\Lista\Informacion.Designer.cs">
+      <DependentUpon>Informacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interfaz\Pila\Formulario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +94,7 @@
       <DependentUpon>Seguridad.cs</DependentUpon>
     </Compile>
     <Compile Include="Modelos\Cola\Cola.cs" />
+    <Compile Include="Modelos\Lista\Lista.cs" />
     <Compile Include="Modelos\Pila\Pila.cs" />
     <Compile Include="Modelos\Transversal\Respuesta.cs" />
     <Compile Include="Program.cs" />
@@ -115,6 +128,9 @@
       <DependentUpon>Formulario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Interfaz\Cola\Informacion.resx">
+      <DependentUpon>Informacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\Lista\Informacion.resx">
       <DependentUpon>Informacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Interfaz\Pila\Formulario.resx">

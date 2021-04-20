@@ -124,6 +124,15 @@ namespace AplicacionUI.Recursos.UI {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Ya existe un registro con el número de pasaporte ingresado.
+        /// </summary>
+        internal static string MensajeRegistroExistenteCola {
+            get {
+                return ResourceManager.GetString("MensajeRegistroExistenteCola", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Ya existe un registro con el número de identificación ingresado.
         /// </summary>
         internal static string MensajeRegistroExistentePila {

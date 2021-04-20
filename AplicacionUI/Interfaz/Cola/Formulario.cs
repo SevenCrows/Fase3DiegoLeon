@@ -80,7 +80,7 @@
                 }
                 else
                 {
-                    MessageBox.Show(rcsMensajesUI.MensajeRegistroExistentePila, rcsMensajesUI.ToolbarAlertaInformativa, MessageBoxButtons.OK);
+                    MessageBox.Show(rcsMensajesUI.MensajeRegistroExistenteCola, rcsMensajesUI.ToolbarAlertaInformativa, MessageBoxButtons.OK);
                 }
             }
         }
