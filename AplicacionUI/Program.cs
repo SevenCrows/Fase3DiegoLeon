@@ -15,8 +15,8 @@
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Seguridad());
-            //Application.Run(new Informacion());
+            //Application.Run(new Seguridad());
+            Application.Run(new Informacion());
         }
     }
 }

@@ -190,11 +190,11 @@ namespace AplicacionUI.Interfaz.Pila
             this.lb_formulario.AutoSize = true;
             this.lb_formulario.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_formulario.ForeColor = System.Drawing.Color.White;
-            this.lb_formulario.Location = new System.Drawing.Point(80, 29);
+            this.lb_formulario.Location = new System.Drawing.Point(90, 28);
             this.lb_formulario.Name = "lb_formulario";
-            this.lb_formulario.Size = new System.Drawing.Size(162, 36);
+            this.lb_formulario.Size = new System.Drawing.Size(143, 36);
             this.lb_formulario.TabIndex = 22;
-            this.lb_formulario.Text = "Formulario";
+            this.lb_formulario.Text = "Encuesta";
             // 
             // lb_identificacion
             // 

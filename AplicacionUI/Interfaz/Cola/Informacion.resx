@@ -117,22 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="pilaBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>490, 17</value>
-  </metadata>
-  <metadata name="pilaBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>490, 17</value>
-  </metadata>
-  <metadata name="ep_identificacion.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="ep_estrato.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>160, 17</value>
-  </metadata>
-  <metadata name="ep_ubicacion.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>268, 17</value>
-  </metadata>
-  <metadata name="ep_canal.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>391, 17</value>
-  </metadata>
+  <data name="lb_parrafo_1.Text" xml:space="preserve">
+    <value>Migración Colombia requiere llevar el control de los turistas que ingresan al país procedentes de otros países. Para lo cual requiere contar con una aplicación que se comporte como una estructura lineal tipo Cola con las opciones de Registrar, reporte y eliminar datos de turistas en el mismo orden de ingreso respectivamente. Para lo cual requiere que el usuario del sistema registre a través del formulario de la cola, los datos de los turistas y se almacenen en una clase llamada Cola, la cual tendrá como atributos o propiedades: el número de pasaporte, el nombre completo, el género (masculino o femenino), lugar de procedencia para seleccionar de una lista de 5 países y la fecha del registro, hacer uso del control DateTimePicker. Se requiere que en la medida en que se vayan realizando los registros se muestren en un control DataGridView en el mismo formulario. Mostrar en la opción reporte el total de registros ingresados en una caja de texto en el formulario, para lo cual puede utilizar la propiedad Count() de la cola.</value>
+  </data>
 </root>

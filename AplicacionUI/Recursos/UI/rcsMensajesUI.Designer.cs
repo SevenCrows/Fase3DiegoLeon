@@ -79,6 +79,24 @@ namespace AplicacionUI.Recursos.UI {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Debe seleccionar un genero.
+        /// </summary>
+        internal static string ErrorProviderSeleccionGenero {
+            get {
+                return ResourceManager.GetString("ErrorProviderSeleccionGenero", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Debe seleccionar un pais de residencia.
+        /// </summary>
+        internal static string ErrorProviderSeleccionPaisResidencia {
+            get {
+                return ResourceManager.GetString("ErrorProviderSeleccionPaisResidencia", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Debe seleccionar una ubicación.
         /// </summary>
         internal static string ErrorProviderSeleccionUbicacion {
@@ -102,6 +120,15 @@ namespace AplicacionUI.Recursos.UI {
         internal static string MensajeErrorPilaVacia {
             get {
                 return ResourceManager.GetString("MensajeErrorPilaVacia", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Ya existe un registro con el número de identificación ingresado.
+        /// </summary>
+        internal static string MensajeRegistroExistentePila {
+            get {
+                return ResourceManager.GetString("MensajeRegistroExistentePila", resourceCulture);
             }
         }
         

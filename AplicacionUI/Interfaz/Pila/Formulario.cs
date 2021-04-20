@@ -19,9 +19,6 @@
         private readonly NegocioPila negocioPila;
         private Informacion informacionPila;
 
-        /// <summary>
-        /// The seleccion destino
-        /// </summary>
         private string seleccionEstrato, seleccionUbicacion, seleccionCanal;
 
         private int intEstrato, intUbicacion, intCanal;
@@ -86,10 +83,17 @@
                 pila.Ubicacion = seleccionUbicacion;
                 pila.Canal = seleccionCanal;
 
-                this.negocioPila.GuardarInformacion(pila);
-                this.lb_registros_actuales.Text = this.negocioPila.RetornarTotalRegistros().ToString();
-                this.LimpiarInformacionFormulario();
-                this.CargarStackEncuesta();
+                if (!this.negocioPila.ValidarExistenciaRegistro(pila.Identificacion))
+                {
+                    this.negocioPila.GuardarInformacion(pila);
+                    this.lb_registros_actuales.Text = this.negocioPila.RetornarTotalRegistros().ToString();
+                    this.LimpiarInformacionFormulario();
+                    this.CargarStackEncuesta();
+                }
+                else
+                {
+                    MessageBox.Show(rcsMensajesUI.MensajeRegistroExistentePila, rcsMensajesUI.ToolbarAlertaInformativa, MessageBoxButtons.OK);
+                }
             }
         }
 
