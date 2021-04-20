@@ -51,7 +51,18 @@
     <Compile Include="Clases\NegocioCola.cs" />
     <Compile Include="Clases\NegocioLista.cs" />
     <Compile Include="Clases\NegocioPila.cs" />
-    <Compile Include="Enumeradores\TipoAplicacion.cs" />
+    <Compile Include="Interfaz\Cola\Formulario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\Cola\Formulario.Designer.cs">
+      <DependentUpon>Formulario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\Cola\Informacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\Cola\Informacion.Designer.cs">
+      <DependentUpon>Informacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interfaz\Pila\Formulario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +81,7 @@
     <Compile Include="Interfaz\Seguridad\Seguridad.Designer.cs">
       <DependentUpon>Seguridad.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modelos\Cola\Cola.cs" />
     <Compile Include="Modelos\Pila\Pila.cs" />
     <Compile Include="Modelos\Transversal\Respuesta.cs" />
     <Compile Include="Program.cs" />
@@ -94,10 +106,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Properties\DataSources\AplicacionUI.Modelos.Cola.Cola.datasource" />
     <None Include="Properties\DataSources\AplicacionUI.Modelos.Pila.Pila.datasource" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <EmbeddedResource Include="Interfaz\Cola\Formulario.resx">
+      <DependentUpon>Formulario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\Cola\Informacion.resx">
+      <DependentUpon>Informacion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Interfaz\Pila\Formulario.resx">
       <DependentUpon>Formulario.cs</DependentUpon>
     </EmbeddedResource>

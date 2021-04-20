@@ -1,4 +1,4 @@
-﻿namespace AplicacionUI.Interfaz.Pila
+﻿namespace AplicacionUI.Interfaz.Cola
 {
     using System;
     using System.Windows.Forms;
@@ -6,12 +6,19 @@
 
     public partial class Informacion : Form
     {
-        private Formulario formularioPila;
-        private Cola.Informacion informacionCola;
+        private Pila.Informacion informacionPila;
+        private Cola.Formulario formularioCola;
 
         public Informacion()
         {
             InitializeComponent();
+        }
+
+        private void btn_pila_Click(object sender, EventArgs e)
+        {
+            this.informacionPila = new Pila.Informacion();
+            this.informacionPila.Show();
+            this.Hide();
         }
 
         private void btn_salir_Click(object sender, EventArgs e)
@@ -24,17 +31,10 @@
             }
         }
 
-        private void btn_iniciar_pila_Click(object sender, EventArgs e)
+        private void btn_iniciar_cola_Click(object sender, EventArgs e)
         {
-            this.formularioPila = new Formulario();
-            this.formularioPila.Show();
-            this.Hide();
-        }
-
-        private void btn_colas_Click(object sender, EventArgs e)
-        {
-            this.informacionCola = new Cola.Informacion();
-            this.informacionCola.Show();
+            this.formularioCola = new Cola.Formulario();
+            this.formularioCola.Show();
             this.Hide();
         }
     }

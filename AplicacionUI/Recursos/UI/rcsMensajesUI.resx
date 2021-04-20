@@ -123,6 +123,12 @@
   <data name="ErrorProviderSeleccionEstrato" xml:space="preserve">
     <value>Debe seleccionar un estrato</value>
   </data>
+  <data name="ErrorProviderSeleccionGenero" xml:space="preserve">
+    <value>Debe seleccionar un genero</value>
+  </data>
+  <data name="ErrorProviderSeleccionPaisResidencia" xml:space="preserve">
+    <value>Debe seleccionar un pais de residencia</value>
+  </data>
   <data name="ErrorProviderSeleccionUbicacion" xml:space="preserve">
     <value>Debe seleccionar una ubicación</value>
   </data>
@@ -131,6 +137,9 @@
   </data>
   <data name="MensajeErrorPilaVacia" xml:space="preserve">
     <value>No tiene información para eliminar</value>
+  </data>
+  <data name="MensajeRegistroExistentePila" xml:space="preserve">
+    <value>Ya existe un registro con el número de identificación ingresado</value>
   </data>
   <data name="ToolbarAlertaBoxSeguridad" xml:space="preserve">
     <value>Alerta de Seguridad</value>
