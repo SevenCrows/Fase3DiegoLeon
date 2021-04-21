@@ -73,6 +73,7 @@ namespace AplicacionUI.Interfaz.Cola
             this.btn_listas.TabIndex = 17;
             this.btn_listas.Text = "Listas";
             this.btn_listas.UseVisualStyleBackColor = false;
+            this.btn_listas.Click += new System.EventHandler(this.btn_listas_Click);
             // 
             // btn_colas
             // 

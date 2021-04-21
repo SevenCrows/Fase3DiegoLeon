@@ -117,49 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ErrorProviderSeleccionCanal" xml:space="preserve">
-    <value>Debe seleccionar un canal</value>
-  </data>
-  <data name="ErrorProviderSeleccionDestino" xml:space="preserve">
-    <value>Debe seleccionar un destino</value>
-  </data>
-  <data name="ErrorProviderSeleccionEstrato" xml:space="preserve">
-    <value>Debe seleccionar un estrato</value>
-  </data>
-  <data name="ErrorProviderSeleccionGenero" xml:space="preserve">
-    <value>Debe seleccionar un genero</value>
-  </data>
-  <data name="ErrorProviderSeleccionPaisResidencia" xml:space="preserve">
-    <value>Debe seleccionar un pais de residencia</value>
-  </data>
-  <data name="ErrorProviderSeleccionUbicacion" xml:space="preserve">
-    <value>Debe seleccionar una ubicación</value>
-  </data>
-  <data name="MensajeConfirmarSalirPrograma" xml:space="preserve">
-    <value>¿Está seguro que desea salir del programa?</value>
-  </data>
-  <data name="MensajeErrorDatoNoExisteLista" xml:space="preserve">
-    <value>No existe un registro con el número de reserva digitado</value>
-  </data>
-  <data name="MensajeErrorPilaVacia" xml:space="preserve">
-    <value>No tiene información para eliminar</value>
-  </data>
-  <data name="MensajeRegistroExistenteCola" xml:space="preserve">
-    <value>Ya existe un registro con el número de pasaporte ingresado</value>
-  </data>
-  <data name="MensajeRegistroExistenteLista" xml:space="preserve">
-    <value>Ya existe un registro con el código de reserva digitado</value>
-  </data>
-  <data name="MensajeRegistroExistentePila" xml:space="preserve">
-    <value>Ya existe un registro con el número de identificación ingresado</value>
-  </data>
-  <data name="ToolbarAlertaBoxSeguridad" xml:space="preserve">
-    <value>Alerta de Seguridad</value>
-  </data>
-  <data name="ToolbarAlertaInformativa" xml:space="preserve">
-    <value>Aviso</value>
-  </data>
-  <data name="ToolbarSalirPrograma" xml:space="preserve">
-    <value>Salir del programa</value>
-  </data>
+  <metadata name="listaBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>742, 17</value>
+  </metadata>
+  <metadata name="ep_codigo_reserva.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>894, 17</value>
+  </metadata>
+  <metadata name="ep_destino.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1046, 17</value>
+  </metadata>
+  <metadata name="ep_fecha.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1157, 17</value>
+  </metadata>
+  <metadata name="ep_valor.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
 </root>

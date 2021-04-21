@@ -1,8 +1,11 @@
 G:\SevenCrows\Universidad\Periodo 2021\1\EstructuraDatos\Tarea3\Fase3DiegoLeon\AplicacionUI\bin\Debug\AplicacionUI.exe.config
 G:\SevenCrows\Universidad\Periodo 2021\1\EstructuraDatos\Tarea3\Fase3DiegoLeon\AplicacionUI\bin\Debug\AplicacionUI.exe
 G:\SevenCrows\Universidad\Periodo 2021\1\EstructuraDatos\Tarea3\Fase3DiegoLeon\AplicacionUI\bin\Debug\AplicacionUI.pdb
+G:\SevenCrows\Universidad\Periodo 2021\1\EstructuraDatos\Tarea3\Fase3DiegoLeon\AplicacionUI\obj\Debug\AplicacionUI.csprojAssemblyReference.cache
 G:\SevenCrows\Universidad\Periodo 2021\1\EstructuraDatos\Tarea3\Fase3DiegoLeon\AplicacionUI\obj\Debug\AplicacionUI.Interfaz.Cola.Formulario.resources
 G:\SevenCrows\Universidad\Periodo 2021\1\EstructuraDatos\Tarea3\Fase3DiegoLeon\AplicacionUI\obj\Debug\AplicacionUI.Interfaz.Cola.Informacion.resources
+G:\SevenCrows\Universidad\Periodo 2021\1\EstructuraDatos\Tarea3\Fase3DiegoLeon\AplicacionUI\obj\Debug\AplicacionUI.Interfaz.Lista.Formulario.resources
+G:\SevenCrows\Universidad\Periodo 2021\1\EstructuraDatos\Tarea3\Fase3DiegoLeon\AplicacionUI\obj\Debug\AplicacionUI.Interfaz.Lista.Informacion.resources
 G:\SevenCrows\Universidad\Periodo 2021\1\EstructuraDatos\Tarea3\Fase3DiegoLeon\AplicacionUI\obj\Debug\AplicacionUI.Interfaz.Pila.Formulario.resources
 G:\SevenCrows\Universidad\Periodo 2021\1\EstructuraDatos\Tarea3\Fase3DiegoLeon\AplicacionUI\obj\Debug\AplicacionUI.Interfaz.Pila.Informacion.resources
 G:\SevenCrows\Universidad\Periodo 2021\1\EstructuraDatos\Tarea3\Fase3DiegoLeon\AplicacionUI\obj\Debug\AplicacionUI.Interfaz.Seguridad.Seguridad.resources

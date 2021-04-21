@@ -37,5 +37,10 @@
         {
             return this.stackEncuesta;
         }
+
+        public Pila RecuperarEntidad(long valor)
+        {
+            return this.stackEncuesta.Where(x => x.Identificacion == valor).FirstOrDefault();
+        }
     }
 }

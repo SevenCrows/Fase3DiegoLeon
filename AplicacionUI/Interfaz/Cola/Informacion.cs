@@ -8,6 +8,7 @@
     {
         private Pila.Informacion informacionPila;
         private Cola.Formulario formularioCola;
+        private Lista.Informacion informacionLista;
 
         public Informacion()
         {
@@ -35,6 +36,13 @@
         {
             this.formularioCola = new Cola.Formulario();
             this.formularioCola.Show();
+            this.Hide();
+        }
+
+        private void btn_listas_Click(object sender, EventArgs e)
+        {
+            this.informacionLista = new Lista.Informacion();
+            this.informacionLista.Show();
             this.Hide();
         }
     }

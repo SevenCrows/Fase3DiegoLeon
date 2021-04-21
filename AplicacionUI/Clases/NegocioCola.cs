@@ -40,5 +40,10 @@
         {
             return this.queueTurista;
         }
+
+        public Cola RecuperarEntidad(long valor)
+        {
+            return this.queueTurista.Where(x => x.NumeroPasaporte == valor).FirstOrDefault();
+        }
     }
 }
