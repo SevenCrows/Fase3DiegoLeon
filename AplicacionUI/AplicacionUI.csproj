@@ -120,6 +120,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Properties\DataSources\AplicacionUI.Modelos.Cola.Cola.datasource" />
+    <None Include="Properties\DataSources\AplicacionUI.Modelos.Lista.Lista.datasource" />
     <None Include="Properties\DataSources\AplicacionUI.Modelos.Pila.Pila.datasource" />
   </ItemGroup>
   <ItemGroup />
@@ -129,6 +130,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Interfaz\Cola\Informacion.resx">
       <DependentUpon>Informacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\Lista\Formulario.resx">
+      <DependentUpon>Formulario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Interfaz\Lista\Informacion.resx">
       <DependentUpon>Informacion.cs</DependentUpon>

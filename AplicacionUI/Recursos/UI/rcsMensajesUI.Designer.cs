@@ -70,6 +70,15 @@ namespace AplicacionUI.Recursos.UI {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Debe seleccionar un destino.
+        /// </summary>
+        internal static string ErrorProviderSeleccionDestino {
+            get {
+                return ResourceManager.GetString("ErrorProviderSeleccionDestino", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Debe seleccionar un estrato.
         /// </summary>
         internal static string ErrorProviderSeleccionEstrato {
@@ -115,6 +124,15 @@ namespace AplicacionUI.Recursos.UI {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a No existe un registro con el número de reserva digitado.
+        /// </summary>
+        internal static string MensajeErrorDatoNoExisteLista {
+            get {
+                return ResourceManager.GetString("MensajeErrorDatoNoExisteLista", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a No tiene información para eliminar.
         /// </summary>
         internal static string MensajeErrorPilaVacia {
@@ -129,6 +147,15 @@ namespace AplicacionUI.Recursos.UI {
         internal static string MensajeRegistroExistenteCola {
             get {
                 return ResourceManager.GetString("MensajeRegistroExistenteCola", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Ya existe un registro con el código de reserva digitado.
+        /// </summary>
+        internal static string MensajeRegistroExistenteLista {
+            get {
+                return ResourceManager.GetString("MensajeRegistroExistenteLista", resourceCulture);
             }
         }
         
