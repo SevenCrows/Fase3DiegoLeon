@@ -1,4 +1,17 @@
-﻿namespace AplicacionUI.Interfaz.Lista
+﻿// ***********************************************************************
+// Assembly         : AplicacionUI
+// Author           : Diego Leon Torres
+// Created          : 04-20-2021
+//
+// Last Modified By : Diego Leon Torres
+// Last Modified On : 04-20-2021
+// ***********************************************************************
+// <copyright file="Formulario.cs" company="SevenCrows">
+//     Copyright ©  2021
+// </copyright>
+// <summary></summary>
+// ***********************************************************************
+namespace AplicacionUI.Interfaz.Lista
 {
     using System;
     using System.Windows.Forms;
@@ -8,14 +21,41 @@
     using AplicacionUI.Modelos.Lista;
     using AplicacionUI.Modelos.Transversal;
 
+    /// <summary>
+    /// Class Formulario.
+    /// Implements the <see cref="System.Windows.Forms.Form" />
+    /// </summary>
+    /// <seealso cref="System.Windows.Forms.Form" />
     public partial class Formulario : Form
     {
+        /// <summary>
+        /// The validacion
+        /// </summary>
         private readonly ValidacionCampos validacion;
+
+        /// <summary>
+        /// The informacion lista
+        /// </summary>
         private Informacion informacionLista;
+
+        /// <summary>
+        /// The seleccion destino
+        /// </summary>
         private string seleccionDestino;
+
+        /// <summary>
+        /// The negocio lista
+        /// </summary>
         private readonly NegocioLista negocioLista;
+
+        /// <summary>
+        /// The int destino
+        /// </summary>
         private int intDestino;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Formulario"/> class.
+        /// </summary>
         public Formulario()
         {
             InitializeComponent();
@@ -26,6 +66,11 @@
             this.lb_registros_actuales.Text = this.negocioLista.RetornarTotalRegistros().ToString();
         }
 
+        /// <summary>
+        /// Handles the Click event of the lb_regresar control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void lb_regresar_Click(object sender, EventArgs e)
         {
             this.informacionLista = new Informacion();
@@ -33,6 +78,11 @@
             this.Hide();
         }
 
+        /// <summary>
+        /// Handles the Click event of the btn_salir control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void btn_salir_Click(object sender, EventArgs e)
         {
             DialogResult respuesta = MessageBox.Show(rcsMensajesUI.MensajeConfirmarSalirPrograma, rcsMensajesUI.ToolbarSalirPrograma, MessageBoxButtons.YesNo);
@@ -43,6 +93,11 @@
             }
         }
 
+        /// <summary>
+        /// Handles the Click event of the btn_eliminar_lista control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void btn_eliminar_lista_Click(object sender, EventArgs e)
         {
             if (this.negocioLista.RetornarTotalRegistros() != 0)
@@ -69,6 +124,11 @@
             }
         }
 
+        /// <summary>
+        /// Handles the Click event of the btn_guardar_lista control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void btn_guardar_lista_Click(object sender, EventArgs e)
         {
             this.LimpiarMensajesError();
@@ -94,6 +154,11 @@
             }
         }
 
+        /// <summary>
+        /// Handles the SelectedIndexChanged event of the cb_destino control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void cb_destino_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (cb_destino.SelectedIndex != -1)
@@ -103,6 +168,10 @@
             }
         }
 
+        /// <summary>
+        /// Validars the informacion formulario.
+        /// </summary>
+        /// <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
         private bool ValidarInformacionFormulario()
         {
             bool validar = true;
@@ -147,11 +216,17 @@
             return validar;
         }
 
+        /// <summary>
+        /// Cargars the lista formulario.
+        /// </summary>
         private void CargarListaFormulario()
         {
             this.grid_view_lista.DataSource = this.negocioLista.RetornarListaEncuesta().ToArray();
         }
 
+        /// <summary>
+        /// Limpiars the informacion formulario.
+        /// </summary>
         private void LimpiarInformacionFormulario()
         {
             this.txt_codigo_reserva.Text = string.Empty;
@@ -163,6 +238,9 @@
             this.intDestino = -1;
         }
 
+        /// <summary>
+        /// Limpiars the mensajes error.
+        /// </summary>
         private void LimpiarMensajesError()
         {
             this.ep_codigo_reserva.Clear();
@@ -171,6 +249,10 @@
             this.ep_fecha.Clear();
         }
 
+        /// <summary>
+        /// Validars the dato a eliminar.
+        /// </summary>
+        /// <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
         private bool ValidarDatoAEliminar()
         {
             bool validar = true;

@@ -1,6 +1,24 @@
-﻿
+﻿// ***********************************************************************
+// Assembly         : AplicacionUI
+// Author           : Diego Leon Torres
+// Created          : 04-20-2021
+//
+// Last Modified By : Diego Leon Torres
+// Last Modified On : 04-20-2021
+// ***********************************************************************
+// <copyright file="Formulario.Designer.cs" company="SevenCrows">
+//     Copyright ©  2021
+// </copyright>
+// <summary></summary>
+// ***********************************************************************
+
 namespace AplicacionUI.Interfaz.Lista
 {
+    /// <summary>
+    /// Class Formulario.
+    /// Implements the <see cref="System.Windows.Forms.Form" />
+    /// </summary>
+    /// <seealso cref="System.Windows.Forms.Form" />
     partial class Formulario
     {
         /// <summary>
@@ -393,34 +411,121 @@ namespace AplicacionUI.Interfaz.Lista
 
         #endregion
 
+        /// <summary>
+        /// The panel1
+        /// </summary>
         private System.Windows.Forms.Panel panel1;
+        /// <summary>
+        /// The panel3
+        /// </summary>
         private System.Windows.Forms.Panel panel3;
+        /// <summary>
+        /// The label1
+        /// </summary>
         private System.Windows.Forms.Label label1;
+        /// <summary>
+        /// The panel2
+        /// </summary>
         private System.Windows.Forms.Panel panel2;
+        /// <summary>
+        /// The lb reserva
+        /// </summary>
         private System.Windows.Forms.Label lb_reserva;
+        /// <summary>
+        /// The text codigo reserva
+        /// </summary>
         private System.Windows.Forms.TextBox txt_codigo_reserva;
+        /// <summary>
+        /// The lb formulario
+        /// </summary>
         private System.Windows.Forms.Label lb_formulario;
+        /// <summary>
+        /// The lb estrato
+        /// </summary>
         private System.Windows.Forms.Label lb_estrato;
+        /// <summary>
+        /// The lb destino
+        /// </summary>
         private System.Windows.Forms.Label lb_destino;
+        /// <summary>
+        /// The cb destino
+        /// </summary>
         private System.Windows.Forms.ComboBox cb_destino;
+        /// <summary>
+        /// The BTN guardar lista
+        /// </summary>
         private System.Windows.Forms.Button btn_guardar_lista;
+        /// <summary>
+        /// The label2
+        /// </summary>
         private System.Windows.Forms.Label label2;
+        /// <summary>
+        /// The lb registros actuales
+        /// </summary>
         private System.Windows.Forms.Label lb_registros_actuales;
+        /// <summary>
+        /// The grid view lista
+        /// </summary>
         private System.Windows.Forms.DataGridView grid_view_lista;
+        /// <summary>
+        /// The lb regresar
+        /// </summary>
         private System.Windows.Forms.Label lb_regresar;
+        /// <summary>
+        /// The BTN salir
+        /// </summary>
         private System.Windows.Forms.Button btn_salir;
+        /// <summary>
+        /// The BTN eliminar lista
+        /// </summary>
         private System.Windows.Forms.Button btn_eliminar_lista;
+        /// <summary>
+        /// The DTP fechaviaje
+        /// </summary>
         private System.Windows.Forms.DateTimePicker dtp_fechaviaje;
+        /// <summary>
+        /// The label3
+        /// </summary>
         private System.Windows.Forms.Label label3;
+        /// <summary>
+        /// The text valor
+        /// </summary>
         private System.Windows.Forms.TextBox txt_valor;
+        /// <summary>
+        /// The lista binding source
+        /// </summary>
         private System.Windows.Forms.BindingSource listaBindingSource;
+        /// <summary>
+        /// The codigo reserva data grid view text box column
+        /// </summary>
         private System.Windows.Forms.DataGridViewTextBoxColumn codigoReservaDataGridViewTextBoxColumn;
+        /// <summary>
+        /// The destino data grid view text box column
+        /// </summary>
         private System.Windows.Forms.DataGridViewTextBoxColumn destinoDataGridViewTextBoxColumn;
+        /// <summary>
+        /// The fecha viaje data grid view text box column
+        /// </summary>
         private System.Windows.Forms.DataGridViewTextBoxColumn fechaViajeDataGridViewTextBoxColumn;
+        /// <summary>
+        /// The valor tiquete data grid view text box column
+        /// </summary>
         private System.Windows.Forms.DataGridViewTextBoxColumn valorTiqueteDataGridViewTextBoxColumn;
+        /// <summary>
+        /// The ep codigo reserva
+        /// </summary>
         private System.Windows.Forms.ErrorProvider ep_codigo_reserva;
+        /// <summary>
+        /// The ep destino
+        /// </summary>
         private System.Windows.Forms.ErrorProvider ep_destino;
+        /// <summary>
+        /// The ep fecha
+        /// </summary>
         private System.Windows.Forms.ErrorProvider ep_fecha;
+        /// <summary>
+        /// The ep valor
+        /// </summary>
         private System.Windows.Forms.ErrorProvider ep_valor;
     }
 }

@@ -1,8 +1,21 @@
-﻿using System.Reflection;
+﻿// ***********************************************************************
+// Assembly         : AplicacionUI
+// Author           : Diego Leon Torres
+// Created          : 04-17-2021
+//
+// Last Modified By : Diego Leon Torres
+// Last Modified On : 04-17-2021
+// ***********************************************************************
+// <copyright file="AssemblyInfo.cs" company="SevenCrows">
+//     Copyright ©  2021
+// </copyright>
+// <summary></summary>
+// ***********************************************************************
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// La información general de un ensamblado se controla mediante el siguiente 
+// La información general de un ensamblado se controla mediante el siguiente
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada a un ensamblado.
 [assembly: AssemblyTitle("AplicacionUI")]
@@ -14,8 +27,8 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
-// Si establece ComVisible en false, los tipos de este ensamblado no estarán visibles 
-// para los componentes COM.  Si es necesario obtener acceso a un tipo en este ensamblado desde 
+// Si establece ComVisible en false, los tipos de este ensamblado no estarán visibles
+// para los componentes COM.  Si es necesario obtener acceso a un tipo en este ensamblado desde
 // COM, establezca el atributo ComVisible en true en este tipo.
 [assembly: ComVisible(false)]
 

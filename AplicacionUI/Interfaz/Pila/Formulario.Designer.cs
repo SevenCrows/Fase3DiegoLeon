@@ -1,6 +1,24 @@
-﻿
+﻿// ***********************************************************************
+// Assembly         : AplicacionUI
+// Author           : Diego Leon Torres
+// Created          : 04-19-2021
+//
+// Last Modified By : Diego Leon Torres
+// Last Modified On : 04-19-2021
+// ***********************************************************************
+// <copyright file="Formulario.Designer.cs" company="SevenCrows">
+//     Copyright ©  2021
+// </copyright>
+// <summary></summary>
+// ***********************************************************************
+
 namespace AplicacionUI.Interfaz.Pila
 {
+    /// <summary>
+    /// Class Formulario.
+    /// Implements the <see cref="System.Windows.Forms.Form" />
+    /// </summary>
+    /// <seealso cref="System.Windows.Forms.Form" />
     partial class Formulario
     {
         /// <summary>
@@ -408,34 +426,121 @@ namespace AplicacionUI.Interfaz.Pila
 
         #endregion
 
+        /// <summary>
+        /// The panel1
+        /// </summary>
         private System.Windows.Forms.Panel panel1;
+        /// <summary>
+        /// The panel3
+        /// </summary>
         private System.Windows.Forms.Panel panel3;
+        /// <summary>
+        /// The label1
+        /// </summary>
         private System.Windows.Forms.Label label1;
+        /// <summary>
+        /// The panel2
+        /// </summary>
         private System.Windows.Forms.Panel panel2;
+        /// <summary>
+        /// The lb identificacion
+        /// </summary>
         private System.Windows.Forms.Label lb_identificacion;
+        /// <summary>
+        /// The text identificacion
+        /// </summary>
         private System.Windows.Forms.TextBox txt_identificacion;
+        /// <summary>
+        /// The lb formulario
+        /// </summary>
         private System.Windows.Forms.Label lb_formulario;
+        /// <summary>
+        /// The lb estrato
+        /// </summary>
         private System.Windows.Forms.Label lb_estrato;
+        /// <summary>
+        /// The lb canal
+        /// </summary>
         private System.Windows.Forms.Label lb_canal;
+        /// <summary>
+        /// The lb ubicacion
+        /// </summary>
         private System.Windows.Forms.Label lb_ubicacion;
+        /// <summary>
+        /// The cb canal
+        /// </summary>
         private System.Windows.Forms.ComboBox cb_canal;
+        /// <summary>
+        /// The cb ubicacion
+        /// </summary>
         private System.Windows.Forms.ComboBox cb_ubicacion;
+        /// <summary>
+        /// The cb estrato
+        /// </summary>
         private System.Windows.Forms.ComboBox cb_estrato;
+        /// <summary>
+        /// The ep identificacion
+        /// </summary>
         private System.Windows.Forms.ErrorProvider ep_identificacion;
+        /// <summary>
+        /// The ep estrato
+        /// </summary>
         private System.Windows.Forms.ErrorProvider ep_estrato;
+        /// <summary>
+        /// The ep ubicacion
+        /// </summary>
         private System.Windows.Forms.ErrorProvider ep_ubicacion;
+        /// <summary>
+        /// The ep canal
+        /// </summary>
         private System.Windows.Forms.ErrorProvider ep_canal;
+        /// <summary>
+        /// The BTN guardar pila
+        /// </summary>
         private System.Windows.Forms.Button btn_guardar_pila;
+        /// <summary>
+        /// The label2
+        /// </summary>
         private System.Windows.Forms.Label label2;
+        /// <summary>
+        /// The lb registros actuales
+        /// </summary>
         private System.Windows.Forms.Label lb_registros_actuales;
+        /// <summary>
+        /// The pila binding source
+        /// </summary>
         private System.Windows.Forms.BindingSource pilaBindingSource;
+        /// <summary>
+        /// The grid view pila
+        /// </summary>
         private System.Windows.Forms.DataGridView grid_view_pila;
+        /// <summary>
+        /// The identificacion data grid view text box column
+        /// </summary>
         private System.Windows.Forms.DataGridViewTextBoxColumn identificacionDataGridViewTextBoxColumn;
+        /// <summary>
+        /// The estrato data grid view text box column
+        /// </summary>
         private System.Windows.Forms.DataGridViewTextBoxColumn estratoDataGridViewTextBoxColumn;
+        /// <summary>
+        /// The ubicacion data grid view text box column
+        /// </summary>
         private System.Windows.Forms.DataGridViewTextBoxColumn ubicacionDataGridViewTextBoxColumn;
+        /// <summary>
+        /// The canal data grid view text box column
+        /// </summary>
         private System.Windows.Forms.DataGridViewTextBoxColumn canalDataGridViewTextBoxColumn;
+        /// <summary>
+        /// The lb regresar
+        /// </summary>
         private System.Windows.Forms.Label lb_regresar;
+        /// <summary>
+        /// The BTN salir
+        /// </summary>
         private System.Windows.Forms.Button btn_salir;
+        /// <summary>
+        /// The BTN eliminar pila
+        /// </summary>
         private System.Windows.Forms.Button btn_eliminar_pila;
     }
 }

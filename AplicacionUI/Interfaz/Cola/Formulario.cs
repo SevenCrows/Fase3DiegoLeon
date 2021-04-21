@@ -1,4 +1,17 @@
-﻿namespace AplicacionUI.Interfaz.Cola
+﻿// ***********************************************************************
+// Assembly         : AplicacionUI
+// Author           : Diego Leon Torres
+// Created          : 04-20-2021
+//
+// Last Modified By : Diego Leon Torres
+// Last Modified On : 04-20-2021
+// ***********************************************************************
+// <copyright file="Formulario.cs" company="SevenCrows">
+//     Copyright ©  2021
+// </copyright>
+// <summary></summary>
+// ***********************************************************************
+namespace AplicacionUI.Interfaz.Cola
 {
     using System;
     using System.Linq;
@@ -9,6 +22,11 @@
     using AplicacionUI.Utilidades.Transversal;
     using AplicacionUI.Modelos.Cola;
 
+    /// <summary>
+    /// Class Formulario.
+    /// Implements the <see cref="System.Windows.Forms.Form" />
+    /// </summary>
+    /// <seealso cref="System.Windows.Forms.Form" />
     public partial class Formulario : Form
     {
         /// <summary>
@@ -16,14 +34,29 @@
         /// </summary>
         private readonly ValidacionCampos validacion;
 
+        /// <summary>
+        /// The negocio cola
+        /// </summary>
         private readonly NegocioCola negocioCola;
 
+        /// <summary>
+        /// The informacion cola
+        /// </summary>
         private Informacion informacionCola;
 
+        /// <summary>
+        /// The seleccion genero
+        /// </summary>
         private string seleccionGenero, seleccionPais;
 
+        /// <summary>
+        /// The int genero
+        /// </summary>
         private int intGenero, intPais;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Formulario"/> class.
+        /// </summary>
         public Formulario()
         {
             InitializeComponent();
@@ -35,6 +68,11 @@
             this.lb_registros_actuales.Text = this.negocioCola.RetornarTotalRegistros().ToString();
         }
 
+        /// <summary>
+        /// Handles the Click event of the btn_salir control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void btn_salir_Click(object sender, EventArgs e)
         {
             DialogResult respuesta = MessageBox.Show(rcsMensajesUI.MensajeConfirmarSalirPrograma, rcsMensajesUI.ToolbarSalirPrograma, MessageBoxButtons.YesNo);
@@ -45,6 +83,11 @@
             }
         }
 
+        /// <summary>
+        /// Handles the Click event of the btn_eliminar_cola control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void btn_eliminar_cola_Click(object sender, EventArgs e)
         {
             if (this.negocioCola.RetornarTotalRegistros() == 0)
@@ -59,6 +102,11 @@
             }
         }
 
+        /// <summary>
+        /// Handles the Click event of the btn_guardar_cola control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void btn_guardar_cola_Click(object sender, EventArgs e)
         {
             this.LimpiarMensajesError();
@@ -85,6 +133,10 @@
             }
         }
 
+        /// <summary>
+        /// Validars the informacion formulario.
+        /// </summary>
+        /// <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
         private bool ValidarInformacionFormulario()
         {
             bool validar = true;
@@ -126,11 +178,17 @@
             return validar;
         }
 
+        /// <summary>
+        /// Cargars the queue encuesta.
+        /// </summary>
         private void CargarQueueEncuesta()
         {
             this.grid_view_cola.DataSource = this.negocioCola.RetornarQueueEncuesta().ToList();
         }
 
+        /// <summary>
+        /// Limpiars the mensajes error.
+        /// </summary>
         private void LimpiarMensajesError()
         {
             this.ep_pasaporte.Clear();
@@ -140,6 +198,11 @@
             this.ep_fecha.Clear();
         }
 
+        /// <summary>
+        /// Handles the SelectedIndexChanged event of the cb_genero control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void cb_genero_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (cb_genero.SelectedIndex != -1)
@@ -149,6 +212,11 @@
             }
         }
 
+        /// <summary>
+        /// Handles the Click event of the lb_regresar control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void lb_regresar_Click(object sender, EventArgs e)
         {
             this.informacionCola = new Informacion();
@@ -156,6 +224,11 @@
             this.Hide();
         }
 
+        /// <summary>
+        /// Handles the SelectedIndexChanged event of the cb_pais control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void cb_pais_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (cb_pais.SelectedIndex != -1)
@@ -165,6 +238,9 @@
             }
         }
 
+        /// <summary>
+        /// Limpiars the informacion formulario.
+        /// </summary>
         private void LimpiarInformacionFormulario()
         {
             this.txt_nombres.Text = string.Empty;

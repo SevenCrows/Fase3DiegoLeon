@@ -1,6 +1,24 @@
-﻿
+﻿// ***********************************************************************
+// Assembly         : AplicacionUI
+// Author           : Diego Leon Torres
+// Created          : 04-19-2021
+//
+// Last Modified By : Diego Leon Torres
+// Last Modified On : 04-19-2021
+// ***********************************************************************
+// <copyright file="Formulario.Designer.cs" company="SevenCrows">
+//     Copyright ©  2021
+// </copyright>
+// <summary></summary>
+// ***********************************************************************
+
 namespace AplicacionUI.Interfaz.Cola
 {
+    /// <summary>
+    /// Class Formulario.
+    /// Implements the <see cref="System.Windows.Forms.Form" />
+    /// </summary>
+    /// <seealso cref="System.Windows.Forms.Form" />
     partial class Formulario
     {
         /// <summary>
@@ -438,38 +456,137 @@ namespace AplicacionUI.Interfaz.Cola
 
         #endregion
 
+        /// <summary>
+        /// The panel1
+        /// </summary>
         private System.Windows.Forms.Panel panel1;
+        /// <summary>
+        /// The panel3
+        /// </summary>
         private System.Windows.Forms.Panel panel3;
+        /// <summary>
+        /// The label1
+        /// </summary>
         private System.Windows.Forms.Label label1;
+        /// <summary>
+        /// The panel2
+        /// </summary>
         private System.Windows.Forms.Panel panel2;
+        /// <summary>
+        /// The lb identificacion
+        /// </summary>
         private System.Windows.Forms.Label lb_identificacion;
+        /// <summary>
+        /// The text pasaporte
+        /// </summary>
         private System.Windows.Forms.TextBox txt_pasaporte;
+        /// <summary>
+        /// The lb formulario
+        /// </summary>
         private System.Windows.Forms.Label lb_formulario;
+        /// <summary>
+        /// The lb estrato
+        /// </summary>
         private System.Windows.Forms.Label lb_estrato;
+        /// <summary>
+        /// The lb canal
+        /// </summary>
         private System.Windows.Forms.Label lb_canal;
+        /// <summary>
+        /// The lb ubicacion
+        /// </summary>
         private System.Windows.Forms.Label lb_ubicacion;
+        /// <summary>
+        /// The cb pais
+        /// </summary>
         private System.Windows.Forms.ComboBox cb_pais;
+        /// <summary>
+        /// The cb genero
+        /// </summary>
         private System.Windows.Forms.ComboBox cb_genero;
+        /// <summary>
+        /// The BTN guardar cola
+        /// </summary>
         private System.Windows.Forms.Button btn_guardar_cola;
+        /// <summary>
+        /// The label2
+        /// </summary>
         private System.Windows.Forms.Label label2;
+        /// <summary>
+        /// The lb registros actuales
+        /// </summary>
         private System.Windows.Forms.Label lb_registros_actuales;
+        /// <summary>
+        /// The grid view cola
+        /// </summary>
         private System.Windows.Forms.DataGridView grid_view_cola;
+        /// <summary>
+        /// The lb regresar
+        /// </summary>
         private System.Windows.Forms.Label lb_regresar;
+        /// <summary>
+        /// The BTN salir
+        /// </summary>
         private System.Windows.Forms.Button btn_salir;
+        /// <summary>
+        /// The BTN eliminar cola
+        /// </summary>
         private System.Windows.Forms.Button btn_eliminar_cola;
+        /// <summary>
+        /// The cola binding source
+        /// </summary>
         private System.Windows.Forms.BindingSource colaBindingSource;
+        /// <summary>
+        /// The numero pasaporte data grid view text box column
+        /// </summary>
         private System.Windows.Forms.DataGridViewTextBoxColumn numeroPasaporteDataGridViewTextBoxColumn;
+        /// <summary>
+        /// The nombre completo data grid view text box column
+        /// </summary>
         private System.Windows.Forms.DataGridViewTextBoxColumn nombreCompletoDataGridViewTextBoxColumn;
+        /// <summary>
+        /// The genero data grid view text box column
+        /// </summary>
         private System.Windows.Forms.DataGridViewTextBoxColumn generoDataGridViewTextBoxColumn;
+        /// <summary>
+        /// The pais residencia data grid view text box column
+        /// </summary>
         private System.Windows.Forms.DataGridViewTextBoxColumn paisResidenciaDataGridViewTextBoxColumn;
+        /// <summary>
+        /// The fecha registra data grid view text box column
+        /// </summary>
         private System.Windows.Forms.DataGridViewTextBoxColumn fechaRegistraDataGridViewTextBoxColumn;
+        /// <summary>
+        /// The DTP registro
+        /// </summary>
         private System.Windows.Forms.DateTimePicker dtp_registro;
+        /// <summary>
+        /// The label3
+        /// </summary>
         private System.Windows.Forms.Label label3;
+        /// <summary>
+        /// The text nombres
+        /// </summary>
         private System.Windows.Forms.TextBox txt_nombres;
+        /// <summary>
+        /// The ep pasaporte
+        /// </summary>
         private System.Windows.Forms.ErrorProvider ep_pasaporte;
+        /// <summary>
+        /// The ep nombre
+        /// </summary>
         private System.Windows.Forms.ErrorProvider ep_nombre;
+        /// <summary>
+        /// The ep genero
+        /// </summary>
         private System.Windows.Forms.ErrorProvider ep_genero;
+        /// <summary>
+        /// The ep residencia
+        /// </summary>
         private System.Windows.Forms.ErrorProvider ep_residencia;
+        /// <summary>
+        /// The ep fecha
+        /// </summary>
         private System.Windows.Forms.ErrorProvider ep_fecha;
     }
 }

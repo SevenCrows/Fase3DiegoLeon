@@ -1,6 +1,24 @@
-﻿
+﻿// ***********************************************************************
+// Assembly         : AplicacionUI
+// Author           : Diego Leon Torres
+// Created          : 04-19-2021
+//
+// Last Modified By : Diego Leon Torres
+// Last Modified On : 04-19-2021
+// ***********************************************************************
+// <copyright file="Seguridad.Designer.cs" company="SevenCrows">
+//     Copyright ©  2021
+// </copyright>
+// <summary></summary>
+// ***********************************************************************
+
 namespace AplicacionUI.Interfaz.Seguridad
 {
+    /// <summary>
+    /// Class Seguridad.
+    /// Implements the <see cref="System.Windows.Forms.Form" />
+    /// </summary>
+    /// <seealso cref="System.Windows.Forms.Form" />
     partial class Seguridad
     {
         /// <summary>
@@ -209,17 +227,53 @@ namespace AplicacionUI.Interfaz.Seguridad
         }
 
         #endregion
+        /// <summary>
+        /// The text password
+        /// </summary>
         private System.Windows.Forms.TextBox txt_password;
+        /// <summary>
+        /// The ep password
+        /// </summary>
         private System.Windows.Forms.ErrorProvider ep_password;
+        /// <summary>
+        /// The panel2
+        /// </summary>
         private System.Windows.Forms.Panel panel2;
+        /// <summary>
+        /// The panel1
+        /// </summary>
         private System.Windows.Forms.Panel panel1;
+        /// <summary>
+        /// The lb informacion
+        /// </summary>
         private System.Windows.Forms.Label lb_informacion;
+        /// <summary>
+        /// The lb parrafo 1
+        /// </summary>
         private System.Windows.Forms.Label lb_parrafo_1;
+        /// <summary>
+        /// The BTN salir
+        /// </summary>
         private System.Windows.Forms.Label btn_salir;
+        /// <summary>
+        /// The label8
+        /// </summary>
         private System.Windows.Forms.Label label8;
+        /// <summary>
+        /// The label11
+        /// </summary>
         private System.Windows.Forms.Label label11;
+        /// <summary>
+        /// The label10
+        /// </summary>
         private System.Windows.Forms.Label label10;
+        /// <summary>
+        /// The label9
+        /// </summary>
         private System.Windows.Forms.Label label9;
+        /// <summary>
+        /// The BTN ingresar
+        /// </summary>
         private System.Windows.Forms.Button btn_ingresar;
     }
 

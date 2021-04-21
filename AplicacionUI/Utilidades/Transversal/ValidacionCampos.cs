@@ -1,4 +1,17 @@
-﻿namespace AplicacionUI.Utilidades.Transversal
+﻿// ***********************************************************************
+// Assembly         : AplicacionUI
+// Author           : Diego Leon Torres
+// Created          : 04-18-2021
+//
+// Last Modified By : Diego Leon Torres
+// Last Modified On : 04-18-2021
+// ***********************************************************************
+// <copyright file="ValidacionCampos.cs" company="SevenCrows">
+//     Copyright ©  2021
+// </copyright>
+// <summary></summary>
+// ***********************************************************************
+namespace AplicacionUI.Utilidades.Transversal
 {
     using System.Threading.Tasks;
     using AplicacionUI.Modelos.Transversal;
@@ -10,7 +23,7 @@
     public class ValidacionCampos
     {
         /// <summary>
-        /// Inicializa una nueva instancia de la clase <see cref="ValidacionCampos"/>.
+        /// Inicializa una nueva instancia de la clase <see cref="ValidacionCampos" />.
         /// </summary>
         public ValidacionCampos()
         {
